@@ -4,7 +4,7 @@
 #include <stdio.h>
 /* betty style doc for function main goes there */
 /**
- * main - Finds last digit and classifies it 
+ * main - Finds last digit and classifies it
  * Return: 0 (success)
  */
 
