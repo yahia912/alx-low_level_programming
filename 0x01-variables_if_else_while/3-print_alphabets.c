@@ -12,7 +12,6 @@ int main(void)
 	{
 		putchar(ch);
 	}
-	
 	for (; chs <= 'Z'; chs++)
 	{
 		putchar(chs);
