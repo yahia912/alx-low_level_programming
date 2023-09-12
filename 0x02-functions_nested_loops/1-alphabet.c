@@ -3,13 +3,13 @@
  * main - Function that prints the alphabet in lowercase
  * Return: void
  */
-void print_alphabet(void);
+void print_alphabet(void)
 {
-	int i = "a";
+	int i = 'a';
 
-	for (; i <= "z"; i++)
+	for (; i <= 'z'; i++)
 	{
 		_putchar(i);
 	}
-	_putchar("\n");
+	_putchar('\n');
 }
