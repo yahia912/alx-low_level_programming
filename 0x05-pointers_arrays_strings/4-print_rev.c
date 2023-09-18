@@ -12,7 +12,7 @@ void _puts(char *s)
 
 	while (s[length] != '\0')
 	{
-		length++
+		length++;
 	}
 
 	while (length != 0)
