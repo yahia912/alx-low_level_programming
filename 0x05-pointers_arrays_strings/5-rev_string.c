@@ -6,7 +6,7 @@
  * Return: void
  */
 
-void rev_string(char *s);
+void rev_string(char *s)
 {
 	int length = 0, oldi, newi;
 	char temp;
