@@ -2,11 +2,11 @@
 #include "main.h"
 /**
  * print_rev - Prints string in reverse
- * @str: String to be reversed
+ * @s: String to be reversed
  * Return: void
  */
 
-void _puts(char *str)
+void _puts(char *s)
 {
 	int length = 0;
 
@@ -17,7 +17,7 @@ void _puts(char *str)
 
 	while (length != 0)
 	{
-		_putchar(str[length]);
+		_putchar(s[length]);
 		length--;
 	}
 	_putchar('\n');
